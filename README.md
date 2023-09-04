@@ -38,3 +38,7 @@ Note: Aurora vesion for BD is serverless fast and cheap in cost
     * edit heathcheck to /login and add listner https
     * Edit project2-backend sg allow ports 3306, 11211, 5672 from bean app sg
 8. Build and Deploy artifact
+    * Update the url of mysql, rabbitmq, and memcache(port also) in application.properties file
+    * Build artifact locally
+    * Go to bean stalk environment upload war file and deploy
+    
